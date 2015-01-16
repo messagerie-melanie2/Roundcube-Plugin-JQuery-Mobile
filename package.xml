@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packagerversion="1.9.0" version="2.0" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
+    http://pear.php.net/dtd/tasks-1.0.xsd
+    http://pear.php.net/dtd/package-2.0
+    http://pear.php.net/dtd/package-2.0.xsd">
+	<name>jquery_mobile</name>
+	<channel>pear.roundcube.net</channel>
+	<summary>jQuery-Mobile library</summary>
+	<description>
+	    Plugin adds the complete jQuery-Mobile library including the smoothness
+        theme to Roundcube. This allows other plugins to use jQuery-Mobile without
+        having to load their own version. The benefit of using one central jQuery-Mobile
+        is that we wont run into problems of conflicting jQuery libraries being
+        loaded. All plugins that want to use jQuery-Mobile should use this plugin as
+        a requirement.
+	</description>
+	<lead>
+		<name>Thomas Payen</name>
+		<user>tpayen</user>
+		<email>thomas.payen@i-carre.net</email>
+		<active>yes</active>
+	</lead>
+	<date>2014-08-12</date>
+	<version>
+		<release>1.4.3</release>
+		<api>1.8</api>
+	</version>
+	<stability>
+		<release>stable</release>
+		<api>stable</api>
+	</stability>
+	<license uri="http://www.gnu.org/licenses/gpl.html">GNU GPLv3+</license>
+	<notes>-</notes>
+	<contents>
+		<dir baseinstalldir="/" name="/">
+			<file name="jquery_mobile.php" role="php">
+				<tasks:replace from="@name@" to="name" type="package-info"/>
+				<tasks:replace from="@package_version@" to="version" type="package-info"/>
+			</file>			
+		</dir>
+		<!-- / -->
+	</contents>
+	<dependencies>
+		<required>
+			<php>
+				<min>5.2.1</min>
+			</php>
+			<pearinstaller>
+				<min>1.7.0</min>
+			</pearinstaller>
+		</required>
+	</dependencies>
+	<phprelease/>
+</package>
