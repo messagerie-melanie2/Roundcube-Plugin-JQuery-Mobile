@@ -48,3 +48,4 @@ class jquery_mobile extends rcube_plugin
     }
 
 }
+
