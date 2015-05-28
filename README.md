@@ -22,4 +22,4 @@ PNE Annuaire et Messagerie/MEDDE
 Installation
 ------------
 
-Rename the folder to "jquery_mobile" and add it to your Roundcube instance/plugins directory. Then edit Roundcube config.inc.php file and add "jquery_mobile" to the $config['plugins'] array.
+Rename the folder to "jquery_mobile" and add it to your Roundcube instance/plugins directory. You MUST NOT add it in the Roundcube configuration file, the plugin is automatically loaded by the mobile plugin.
