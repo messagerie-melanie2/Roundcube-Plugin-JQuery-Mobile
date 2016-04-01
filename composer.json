@@ -1,7 +1,7 @@
 {
     "name": "melanie2/jquery_mobile",
     "type": "roundcube-plugin",
-    "description": "Add Jquery Mobile to Roundcube",
+    "description": "Add Jquery Mobile to Roundcube (used by mobile plugin)",
     "keywords": ["mobile","jquery"],
     "homepage": "https://github.com/messagerie-melanie2/Roundcube-Plugin-JQuery-Mobile",
     "license": "GPL-3.0+",
