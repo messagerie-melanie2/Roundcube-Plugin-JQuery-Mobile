@@ -28,9 +28,22 @@
  */
 class jquery_mobile extends rcube_plugin
 {
+    private static $instance;
+
     public function init()
     {
-        $version = '1.4.5';
+        self::$instance = $this;
+        $this->version = '1.4.5';
+    }
+
+    public static function get_instance()
+    {
+        return self::$instance;
+    }
+ 
+    public function include_files()
+    {
+        $version = $this->version;
 
         $rcmail = rcmail::get_instance();
         $this->load_config();
