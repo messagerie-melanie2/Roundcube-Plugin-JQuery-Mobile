@@ -1,5 +1,5 @@
-jquery_mobile
-=============
+Roundcube-Plugin-JQuery-Mobile
+===
 
 Presentation
 ------------
@@ -10,13 +10,14 @@ Plugin for adding the complete jquery_mobile (http://jquerymobile.com/) library 
 Version
 -------
 
-jquery mobile 1.4.5
+Version 1.1 add JQuery Mobile 1.4.5 customised by @lv01jsi for Roundcube 1.3.x  
 
 
-Author
+Authors
 ------
 
-PNE Annuaire et Messagerie/MEDDE
+@tpayen - PNE Annuaire et Messagerie/METL
+@lv01jsi
 
 
 Installation

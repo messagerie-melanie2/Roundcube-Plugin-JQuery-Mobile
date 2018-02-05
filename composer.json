@@ -5,7 +5,7 @@
     "keywords": ["mobile","jquery"],
     "homepage": "https://github.com/messagerie-melanie2/Roundcube-Plugin-JQuery-Mobile",
     "license": "GPL-3.0+",
-    "version": "1.0",
+    "version": "1.1",
     "authors": [
         {
             "name": "Thomas Payen",
