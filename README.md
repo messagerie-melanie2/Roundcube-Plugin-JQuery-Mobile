@@ -16,7 +16,7 @@ Version 1.1 add JQuery Mobile 1.4.5 customised by @lv01jsi for Roundcube 1.3.x
 Authors
 ------
 
-@tpayen - PNE Annuaire et Messagerie/METL<br>
+@tpayen - PNE Annuaire et Messagerie/MTES<br>
 @lv01jsi
 
 
