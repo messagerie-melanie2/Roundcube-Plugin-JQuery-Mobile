@@ -10,7 +10,7 @@ Plugin for adding the complete jquery_mobile (http://jquerymobile.com/) library 
 Version
 -------
 
-Version 1.1 add JQuery Mobile 1.4.5 customised by @lv01jsi for Roundcube 1.3.x  
+Version 1.2 add JQuery Mobile 1.4.5 customised by @lv01jsi for Roundcube 1.3.x  
 
 
 Authors
