@@ -3029,10 +3029,8 @@ if ( !$.support.boxShadow ) {
 
 			if ( isPopStateEvent ) {
 				popstateEvent = new $.Event( "popstate" );
-				popstateEvent.originalEvent = {
-					type: "popstate",
-					state: null
-				};
+				popstateEvent.originalEvent = new $.Event( "popstate", { state: null } );
+				state.id = ( this.squash( url, state ) || {} ).id;
 
 				this.squash( url, state );
 
